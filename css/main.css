@@ -21,9 +21,16 @@ body {
 
 .left-column {
   width: 40%;
+  height: 400px;
   padding: 40px;
   float: left;
-  background-color: #5c37a8;
+  background-color: red;
+  background-image: url(../hill.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right  ;
+  
+  
 }
 
 .main-title {
@@ -57,3 +64,4 @@ body {
 
 .form {
 }
+
