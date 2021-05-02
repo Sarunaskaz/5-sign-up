@@ -14,7 +14,14 @@ label {
     border: none;
     border-bottom: 1px solid #ccc;
   }
+
   
+  input:focus{
+    
+    outline: 2px solid blue;
+
+
+  }
   ::placeholder {
     font-style: italic ;
     color: gray;
