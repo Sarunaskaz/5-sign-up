@@ -30,7 +30,8 @@ label {
   
   button{
   
-    background-color: #0066DA ; 
+    background: rgb(44,34,195);
+    background: linear-gradient(0deg, rgba(44,34,195,1) 0%, rgba(205,45,253,1) 100%);
     color: #fff;
     border-radius: 40px;
     padding: 10px 40px;
