@@ -1,0 +1,51 @@
+label {
+    display: inline-block;
+    width: 100%;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  ::placeholder {
+    font-style: italic ;
+    color: gray;
+    font-size: 12px;
+  }
+  
+  button{
+  
+    background-color: #0066DA ; 
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px 40px;
+    
+    line-height: 20px;
+    border: 1px #0066DA;
+    text-transform: capitalize;
+  }
+   
+  .form-row > span {
+    display: inline-block;
+    padding: 11px;
+    line-height: 20px;
+    
+    
+  }
+  
+  .form-row > a {
+    display: inline-block;
+    padding: 11px;
+    line-height: 20px;
+    
+  }
+  .form-row + .form-row {
+    margin-top: 40px;
