@@ -32,6 +32,12 @@ label {
     border: 1px #0066DA;
     text-transform: capitalize;
   }
+
+  button:hover{
+    cursor: pointer;
+    background-color: royalblue;
+  }
+  
    
   .form-row > span {
     display: inline-block;
@@ -45,8 +51,13 @@ label {
     display: inline-block;
     padding: 11px;
     line-height: 20px;
-    
   }
+  .form-row > a:hover{
+    color: red;
+    text-decoration: underline;
+  }
+
+
   .form-row + .form-row {
     margin-top: 40px;
   }
